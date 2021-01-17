@@ -106,9 +106,9 @@ body {
     background-color: #F5F3F2;
     border-radius: 1em;
 
-    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
-    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
-    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
+    -webkit-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(245,243,242,1);
+    -moz-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(245,243,242,1);
+    box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(245,243,242,1);
 }
 
 .company-name {
@@ -133,13 +133,6 @@ body {
     margin: 0.5em 0;
     padding: 0.2em;
     border-radius: 0.5em;
-}
-
-.date-range {
-    background-color: #EFA78F;
-}
-
-.location {
     background-color: #5CC3E2;
 }
 
@@ -156,7 +149,7 @@ body {
 }
 
 .history-container, .project-container, .interests-container {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     flex-direction: row;
     justify-content: center;
     display: flex;
@@ -173,9 +166,9 @@ body {
     border-radius: 1em;
 
     background-color: #252A3C;
-    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
-    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
-    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(0,0,0,0.57);
+    -moz-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(0,0,0,0.57);
+    box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(0,0,0,0.57);
 }
 
 .app-name {
@@ -188,9 +181,9 @@ body {
     width: 35%;
     border-radius: 1em;
 
-    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
-    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
-    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(0,0,0,0.57);
+    -moz-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(0,0,0,0.57);
+    box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(0,0,0,0.57);
 }
 
 .project-skills-list {
@@ -243,9 +236,9 @@ body {
 
 .skills-section .dynamic-box {
     background-color: #F5F3F2;
-    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
-    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
-    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
+    -webkit-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(245,243,242,1);
+    -moz-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(245,243,242,1);
+    box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(245,243,242,1);
 }
 
 .skills-section ul, .skills-section li {
@@ -267,15 +260,15 @@ body {
 }
 
 .icon-with-text-rightside {
-    margin: .5em;
+    margin: 0.75em;
     padding: 0 0.5em;
 
     border-radius: 1em;
 
     background-color: #252A3C;
-    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
-    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
-    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(0,0,0,0.57);
+    -moz-box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(0,0,0,0.57);
+    box-shadow: 0.5em 0.5em 0.75em -0.5em rgba(0,0,0,0.57);
 }
 
 .skill-icon {
@@ -361,7 +354,7 @@ footer p {
     }
 
     .wrapper {
-        width: 95%;
+        width: 100%;
     }
 
     .dynamic-box, .small-dynamic-box {
