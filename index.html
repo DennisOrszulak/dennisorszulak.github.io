@@ -1,0 +1,295 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Use viewport for dynamic sites that change along with the width of the screen-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Name of the tab -->
+        <title>Dennis Orszulak's Portfolio</title>
+        <!-- Google Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+        <!-- Associated CSS styling file -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <!-- Intro Picture, Name, and Career Title -->
+        <section id=intro-section>
+            <div class=wrapper>
+                <h1 id="intro-name">Dennis Orszulak</h1>
+                <br>
+                <h2 id="intro-subtitle">Software Developer and Electrical Engineering Technologist</h2>
+            </div>
+        </section>
+
+        <!-- Resume, Github, and Email Icons/Links -->
+        <section id="contacts-section">
+                <div class="wrapper">
+                    <div class="contacts-container">
+                        <a href="/docs/Dennis Orszulak's Resume.pdf" target="_blank">
+                            <div>
+                                <img src="/images/Resume Icon.png">
+                                <p>Resume</p>
+                            </div>
+                        </a>
+                        <!-- <a href="https://github.com/DennisOrszulak" target="_blank">
+                            <div>
+                                <img src="/images/Github Icon.png">
+                                <p>Github</p>
+                            </div>
+                        </a> -->
+                        <a href="mailto:dennisorszulak@gmail.com" class="info-link">
+                            <div>
+                                <img src="/images/Email Icon.png">
+                                <p>Contact</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Education and History Section -->
+        <section class="history-section">
+            <div class="wrapper">
+                <h1 class="section-titles">Education and Work History</h1>
+                <div class="history-container">
+                    <!-- Purdue Education Box -->
+                    <div class="small-dynamic-box">
+                        <!-- Purdue Logo -->
+                        <a href="https://www.purdue.edu/" target="_blank">
+                            <img class="company-logo" src="/images/Purdue Icon.png" alt="Purdue University">
+                        </a>
+                        
+                        <h3 class="company-name">Purdue University</h3>
+                        <h4 class="company-job-title">Bachelor of Science in Electrical Engineering Technology</h4>
+
+                        <p>Dean's List all 8 semesters</p>
+                        <p>GPA: 3.91</p>
+                        <p>Notable classes: DAQ and Systems Control, Wireless Communications, Embedded Digital Systems, and Fundamentals of Electromagnetics</p>
+
+                        <p class="date-range">August 2013 - May 2017</p>
+                        <p class="location">South Bend, Indiana</p>
+                    </div>
+                    <!-- EI Work Experience Box -->
+                    <div class="small-dynamic-box">
+                        <a href="https://www.electronics-inc.com/" target="_blank">
+                            <img class="company-logo" src="/images/EI Transparent Icon.png" alt="Electronics Inc.">
+                        </a>
+                        
+                        <h3 class="company-name">Electronics Inc.</h3>
+                        <h4 class="company-job-title">Intern, Assistant Engineer, Software Developer</h4>
+                        
+                        <p>Developed their Smart Valve App for next generation MagnaValves</p>
+                        <p>Troubleshot and repaired circuit boards</p>
+                        <p>Wrote documentation and guides</p>
+                        <p>Corrected and created 3D CAD models for engineering</p>
+                        <p>Passed the FAA-accepted level 2 certification for shot peening</p>
+
+                        <p class="date-range">October 2016 - July 2019</p>
+                        <p class="location">Mishawaka, Indiana</p>
+                    </div>
+                    <!-- Honeywell Work Experience Box -->
+                    <div class="small-dynamic-box">
+                        <a href="https://aerospace.honeywell.com/en" target="_blank">
+                            <img class="company-logo" src="/images/Honeywell Icon.png" alt="Honeywell Aerospace">
+                        </a>
+
+                        <h3 class="company-name">Honeywell Aerospace</h3>
+                        <h4 class="company-job-title">Senior Engineering Technician</h4>
+                        
+                        <p>Modified, setup, and connected data acquisition (DAQ) systems to various sensors and devices for testing fuel control systems</p>
+                        <p>Performed calibrations on devices</p>
+                        <p>Wrote documentation and guides</p>
+                        <p>Programmed scripts to help with daily tasks</p>
+                        <p>Fixed and maintained equipment such as PC's and DAQ devices</p>
+
+                        <p class="date-range">July 2019 - May 2020</p>
+                        <p class="location">South Bend, Indiana</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- iOS App Portfolio Section -->
+        <section class="app-portfolio-section">
+                <div class="wrapper">
+                    <h1 class="section-titles">iOS App Portfolio</h1>
+                    <div class="project-container">
+                        <!-- EI App -->
+                        <div class="dynamic-box">
+                            <h2 class="app-name">Smart Valve App</h2>
+                            <img class="app-logo" src="./images/EI Icon.png" alt="Electronics Inc">
+                            
+                            <div class="project-skills-list">
+                                <span>Swift</span>
+                                <span>MVC</span>
+                                <span>Auto Layout</span>
+                                <span>CoreBluetooth</span>
+                                <span>iOS Charts</span>
+                                <span>Toast-Swift</span>
+                                <span>JSON</span>
+                                <span>Git</span>
+                            </div>
+
+                            <p>The Electronics Inc. Smart Valve App connects to EI's shot peening equipment, called MagnaValves, via Bluetooth to give customers control over their next generation valves. They are able to monitor and record real time data, perform their own flow calibrations with multiple presets, export data, and change various settings on the valve.</p>
+                        </div>
+                        <!-- EE Number Cruncher App -->
+                        <div class="dynamic-box">
+                            <h2 class="app-name">EE Number Cruncher</h2>
+                            <img class="app-logo" src="./images/EENC Logo V3 Black Icon.png" alt="EE Number Cruncher">
+                            
+                            <div class="project-skills-list">
+                                <span>Swift</span>
+                                <span>MVC</span>
+                                <span>Auto Layout</span>
+                                <span>Unit Testing</span>
+                                <span>Git</span>
+                            </div>
+
+                            <p>This app is a collection of electrical engineering calculators and converters. I wanted to make an app that would be helpful, quick, and easy to calculate common formulas that I used everyday. I included calculators for Ohms law, voltage dividers, parallel/series resistors, parallel/series capacitors, resistor color codes, RC circuits, and decimal/binary/hex/octal conversions. There is also a reference list that provides a quick overview for various electrical components. Check it out on the app store!</p>
+
+                            <a href="https://itunes.apple.com/us/app/ee-number-cruncher/id1440407780?mt=8" target="_blank">
+                                <button class="app-store-button" type="button"></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Career Skills Section -->
+        <section class="skills-section">
+            <div class="wrapper">
+                <h1 class="section-titles">Skills</h1>
+                <div class="skills-container">
+                    <!-- Programming Languages List -->
+                    <div class="dynamic-box">
+                        <h2 class="lang-or-skills-title">Programming Languages</h2>
+                        <ul>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/Swift Icon.png" alt="Swift"/>
+                                    <div class="rightside-text">
+                                        <p>Swift</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                        <img class="skill-icon" src="./images/VBA Icon.png" alt="VBA"/>
+                                        <div class="rightside-text">
+                                            <p>Visual Basic for Applications</p>
+                                        </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/JSON Icon.png" alt="JSON"/>
+                                    <div class="rightside-text">
+                                        <p>JSON</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/C Icon.png" alt="C"/>
+                                    <div class="rightside-text">
+                                        <p>C (Purdue)</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/C++ Icon.png" alt="C++"/>
+                                    <div class="rightside-text">
+                                        <p>C++ (Purdue)</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Applications List -->
+                    <div class="dynamic-box">
+                        <h2 class="lang-or-skills-title">Applications and Software</h2>
+                        <ul>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/Xcode Icon.png" alt="Xcode"/>
+                                    <div class="rightside-text">
+                                        <p>Xcode</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/Git Icon.png" alt="Git"/>
+                                    <div class="rightside-text">
+                                        <p>Git</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/NI Icon.png" alt="National Instruments"/>
+                                    <div class="rightside-text">
+                                        <p>National Instruments LabVIEW, Multisim, and Ultiboard </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/Autodesk Icon.png" alt="Autodesk"/>
+                                    <div class="rightside-text">
+                                        <p>Autodesk Inventor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/Office Icon.png" alt="Microsoft Office Suite"/>
+                                    <div class="rightside-text">
+                                        <p>Microsoft Office Suite</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-with-text-rightside">
+                                    <img class="skill-icon" src="./images/Automation Direct Icon.png" alt="Automation Direct"/>
+                                    <div class="rightside-text">
+                                        <p>Automation Direct Do-more & C-more PLC IDE's (Purdue)</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests and Hobbies Section -->
+        <section class="interests-section">
+            <div class="wrapper">
+                    <h1 class="section-titles">Interests and Hobbies</h1>
+                    <div class="interests-container">
+                        <div class="dynamic-box">
+                            <div>
+                                <img class="hobby-icon" src="./images/Storm Trooper Icon.png" alt="Star Wars">
+                                <img class="hobby-icon" src="./images/Music Icon.png" alt="Music">
+                                <img class="hobby-icon" src="./images/Coding Icon.png" alt="Programming">
+                                <img class="hobby-icon" src="./images/Steam Icon.png" alt="Video Games">
+                                <img class="hobby-icon" src="./images/House Stark Icon.png" alt="Game of Thrones">
+                                <img class="hobby-icon" src="./images/Drums Icon.png" alt="Drums">
+                                <img class="hobby-icon" src="./images/Cello Icon.png" alt="Cello">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="wrapper">
+                <p>Made by Dennis Orszulak © 2021</p>
+            </div>
+        </footer>
+    </body>
+</html>

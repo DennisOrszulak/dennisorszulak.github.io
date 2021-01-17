@@ -1,0 +1,422 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+    /* Default font values */
+    font-size: 16px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Montserrat', Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.3;
+
+    background-color: #252A3C;
+}
+
+.wrapper { 
+    /* Center the wrapper */
+    margin: auto;
+
+    /* Use 75% of the screen's width for content */
+    width: 75%;
+
+    /* Dont show the content if something overflows */
+    overflow: hidden; 
+
+    /* new */
+    text-align: center;
+}
+
+.section-titles {
+    margin: 0;
+    padding: 1em;
+    color: #F5F3F2;
+    font-size: 2.25em;
+}
+
+/* Intro Section (Picture/Name/Career) */
+
+#intro-section {
+    background: url(../images/Macbook\ Background\ Unsplash.jpg) no-repeat center center;
+    min-height: 32em;
+    background-size: 100%;
+
+    text-align: center;
+    color: white;
+}
+
+#intro-name {
+    margin: 2em 0 0 0;
+    /* margin: 150px 0 0 0; */
+    font-size: 4em;
+}
+
+#intro-subtitle {
+    margin: 0;
+    font-size: 2.25em;
+}
+
+/* Contact Info Section */
+
+#contacts-section {
+    padding: 0.5em;
+    background-color: #828BBD;
+}
+
+.contacts-container div {
+    margin: 1em 1.5em;
+    padding: 1.75em;
+
+    display: inline-block;
+    border-radius: 1em;
+    
+    background-color: #252A3C;
+    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    /* might need this */
+    /* max-height: 100px; */
+}
+
+.contacts-container img {
+    padding: 0.5em;
+    height: 3.75em;
+    min-width: 3.125em;
+    /* background: none; */
+}
+
+.contacts-container p {
+    margin: 0.5em;
+    color: #F5F3F2;
+}
+
+/* Education and Work History section */
+
+.history-section {
+    text-align: center;
+    background-color: #252A3C;
+}
+
+.history-container, .small-dynamic-box {
+    flex-basis: 35%;
+    flex-grow: 0%;
+}
+
+.small-dynamic-box {
+    margin: 0.5em 1.5em;
+    padding: 1em;
+    background-color: #F5F3F2;
+    border-radius: 1em;
+
+    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
+    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
+    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
+}
+
+.company-name {
+    margin: 0.25em;
+    font-size: 2em;
+    color: #252A3C;
+}
+
+.company-job-title {
+    margin: 0px 5px 35px 5px;
+    font-size: 1.25em;
+    color: #5CC3E2;
+}
+
+.company-logo {
+    max-height: 20%;
+    max-width: 50%;
+    border-radius: 1em;
+}
+
+.date-range, .location {
+    margin: 0.5em 0;
+    padding: 0.2em;
+    border-radius: 0.5em;
+}
+
+.date-range {
+    background-color: #EFA78F;
+}
+
+.location {
+    background-color: #5CC3E2;
+}
+
+.small-dynamic-box p {
+    font-size: 1.1em;
+    color: #252A3C;
+}
+
+/* iOS App Projects Section */
+
+.app-portfolio-section {
+    background-color: #828BBD;
+    text-align: center;
+}
+
+.history-container, .project-container, .interests-container {
+    margin-bottom: 3em;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+.project-container, .dynamic-box {
+    flex-basis: 50%;
+    /* flex-grow: 0%; */
+}
+
+.dynamic-box {
+    margin: 0.5em 1.5em;
+    padding: 1em;
+    border-radius: 1em;
+
+    background-color: #252A3C;
+    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+}
+
+.app-name {
+    font-size: 1.75em;
+    color: #F5F3F2;
+}
+
+.app-logo {
+    min-width: 100px;
+    width: 35%;
+    border-radius: 1em;
+
+    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+}
+
+.project-skills-list {
+    margin-top: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.project-skills-list span {
+    margin: 5px 5px;
+    padding: 5px;
+    font-size: .75em;
+
+    border: 2px solid #EFA78F;
+    border-radius: 5px;
+
+    color: #F5F3F2;
+    ;
+}
+
+.project-container .dynamic-box p {
+    color: #F5F3F2;
+    font-size: 1.1em;
+}
+
+/* Keep it the same size (even with different screen sizes) */
+.app-store-button {
+    
+    margin: 10px 0;
+    width: 150px;
+    height: 50px;
+
+    background-image: url(../images/White\ App\ Store\ Icon.png);
+    background-size: 100% 100%;
+    border: none;
+    
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Skills section */
+
+.skills-section {
+    text-align: center;
+    background-color: #252A3C;
+    height: auto;
+}
+
+.skills-section .dynamic-box {
+    background-color: #F5F3F2;
+    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
+    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
+    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(245,243,242,1);
+}
+
+.skills-section ul, .skills-section li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.skills-container {
+    margin-bottom: 3em;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* display: flex; */
+}
+
+.lang-or-skills-title {
+    /* margin: 1em; */
+    color: #252A3C;
+}
+
+.icon-with-text-rightside {
+    margin: .5em;
+    padding: 0 0.5em;
+
+    border-radius: 1em;
+
+    background-color: #252A3C;
+    -webkit-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    -moz-box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+    box-shadow: 0.5em 0.5em 1.25em -0.5em rgba(0,0,0,0.57);
+}
+
+.skill-icon {
+    margin: 0.25em;
+    height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* might need to change this for smaller screens */
+.rightside-text {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.rightside-text p {
+    margin-right: 0.5em;
+    font-size: 1.25em;
+    color: #F5F3F2;
+}
+
+/* Interests and Hobbies Section */
+
+.interests-section {
+    background-color: #828BBD;
+}
+
+.hobby-icon {
+    margin: 1.5em;
+    height: 50px;
+    width: 50px;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #252A3C;
+    text-align: center;
+}
+
+footer p {
+    margin: 1em;
+    color: #EFA78F;
+    font-size: .75em;
+    padding: 1em;
+}
+
+/* Animation */
+
+.history-container img:hover {
+    background-color: black;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: .6s;
+}
+
+.contacts-container div:hover {
+    background-color: #EFA78F;
+    /* color: black; */
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: .6s;
+}
+
+/* Adapting to Different Screen Sizes */
+
+@media(max-width: 768px) {
+    
+    #intro-section {
+        background-size: 175%;
+    }
+
+    body {
+        font-size: 12px;
+    }
+    
+    #intro-name {
+        margin: 3.5em 0 0 0;
+        font-size: 3em;
+    }
+    
+    #intro-subtitle {
+        margin: 0;
+        font-size: 1.75em;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .dynamic-box, .small-dynamic-box {
+        margin: 2em 3em;
+    }
+
+    .contacts-container div {
+        margin: 1em 1em;
+        padding: 1.25em;
+    }
+
+    .history-container, .project-container, .interests-container {
+        flex-direction: column;
+    }
+
+    .icon-with-text-rightside {
+        padding: 1em;
+    }
+}
+
+@media(max-width: 980px) and (min-width: 767px) {
+
+    body {
+        font-size: 10px;
+    }
+
+    .wrapper {
+        width: 85%;
+    }
+
+    .dynamic-box, .small-dynamic-box {
+        margin: 0.5em 1em;
+    }
+
+    .contacts-container div {
+        margin: 1em 2em;
+        padding: 2.5em;
+    }
+
+    .history-container, .project-container, .interests-container {
+        flex-direction: row;
+    }
+}
+
+@media(max-width: 1366px) and (min-width: 981px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+
+    .dynamic-box, .small-dynamic-box {
+        margin: 0.5em 1em;
+    }
+}
